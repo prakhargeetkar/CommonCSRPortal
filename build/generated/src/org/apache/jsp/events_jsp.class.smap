@@ -1,0 +1,12 @@
+SMAP
+events_jsp.java
+JSP
+*S JSP
+*F
++ 0 events.jsp
+events.jsp
+*L
+5,27:49
+32,214:77
+245,12:291
+*E

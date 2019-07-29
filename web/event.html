@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title> Create Event </title> 
+   <link href="styles/event.css" type="text/css" rel="stylesheet"/>
+   <script type="text/javascript" src="js/jquery.js">
+         </script>
+    <script type="text/javascript" src="js/create.js">
+    </script>
+</head>
+<body>
+        <div id="signup-box">
+            <div class="box">
+                <h1>Create Event </h1>
+            Event Name:-</br>
+            <input type="text" id="eventname" name="Event-name" placeholder="Event-name"/></br>
+    
+            Event Date:-</br> 
+            <input type="date" id="eventdate" name="event-date"/></br>
+
+            Event Time:-</br> 
+            <input type="text" id="eventtime" name="time" placeholder="time"/></br>
+
+            Add the image of the file
+            <input type="file" id="image" name="event-pic" accept="image/*"></br>
+              
+            Tell the description:-</br>
+            <textarea name="details of the event" rows="10" cols="30" id="description" placeholder="description"></textarea></br>
+                
+            Location:-
+            <input type="text" id="location" name="location" placeholder="location"/><br>
+          
+            <input type="submit" id="createbtn" name="Create-Button" value="Create Event"/>    
+            <span id="createresult"></span><br>
+        </div> 
+    </div>
+</body>
+</html>
